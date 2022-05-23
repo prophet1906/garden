@@ -1,0 +1,788 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+Text Elements Array A1 (capacity = 10, free = 10) ^biBve4VW"><title>🪴 Shubham's Digital Garden</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://prophet1906.github.io/garden//icon.png><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&family=Fira+Code:wght@400;700&display=swap" rel=stylesheet><link href=https://prophet1906.github.io/garden/styles.cd61336c89ed6e03702366ce4a492b75.min.css rel=stylesheet><script src=https://prophet1906.github.io/garden/js/darkmode.46b07878b7f5d9e26ad7a3c40f8a0605.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],throwOnError:!1})})</script><script>const BASE_URL="https://prophet1906.github.io/garden/",fetchData=Promise.all([fetch("https://prophet1906.github.io/garden/indices/linkIndex.8898a7569ded6bfca37871a0d727c94f.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://prophet1906.github.io/garden/indices/contentIndex.21e80f9d2fe2d08ce022cc0755cc69bf.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n}))</script></head><script async src="https://www.googletagmanager.com/gtag/js?id=G-HXZ0Y3QQ8Q"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-HXZ0Y3QQ8Q",{anonymize_ip:!1})}</script><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://prophet1906.github.io/garden/js/search.bc849b857f2c1b822264d40635bb67b6.min.js></script><div class=singlePage><header><h1 id=page-title><a href=https://prophet1906.github.io/garden/>🪴 Shubham's Digital Garden</a></h1><svg tabindex="0" id="search-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg><div class=spacer></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><p class=meta>Last updated May 23, 2022</p><ul class=tags><li><a href=https://prophet1906.github.io/garden/tags/excalidraw/>Excalidraw</a></li></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents></nav></details></aside><p>==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==</p><h1 id=text-elements>Text Elements</h1><p>Array A1 (capacity = 10, free = 10) ^biBve4VW</p><p>Array A1 (capacity = 10, free = 0) ^Nwq0sYoQ</p><p>Array A2 (capacity = 20, free = 20) ^tAfMwk0o</p><p>10 elements inserted ^308A986v</p><p>copy 10 elements A1 -> A2 ^YB2QI2wQ</p><p>Array A2 (capacity = 20, free = 10) ^54szbFm6</p><p>create new array to expand ^tvl8EfQe</p><p>Array A2 (capacity = 20, free = 0) ^2F0fug0x</p><p>10 elements inserted ^lIxi0vEK</p><p>Array A3 (capacity = 40, free = 40) ^JJ1rYBKV</p><p>copy 10 elements A2 -> A3 ^CSaGWSji</p><p>Array A3 (capacity = 40, free = 20) ^DVs7dGCq</p><p>create new array to expand ^g9e9oMmr</p><p>&mldr; ^Pg7cFwD0</p><p>A1 ^41eMCOmU</p><p>A2 ^jsqashHg</p><p>X ^pgwQxuAa</p><p>X is available for garbage collection ^dtmmLeWI</p><p>%%</p><h1 id=drawing>Drawing</h1><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>  1
+</span><span class=lnt>  2
+</span><span class=lnt>  3
+</span><span class=lnt>  4
+</span><span class=lnt>  5
+</span><span class=lnt>  6
+</span><span class=lnt>  7
+</span><span class=lnt>  8
+</span><span class=lnt>  9
+</span><span class=lnt> 10
+</span><span class=lnt> 11
+</span><span class=lnt> 12
+</span><span class=lnt> 13
+</span><span class=lnt> 14
+</span><span class=lnt> 15
+</span><span class=lnt> 16
+</span><span class=lnt> 17
+</span><span class=lnt> 18
+</span><span class=lnt> 19
+</span><span class=lnt> 20
+</span><span class=lnt> 21
+</span><span class=lnt> 22
+</span><span class=lnt> 23
+</span><span class=lnt> 24
+</span><span class=lnt> 25
+</span><span class=lnt> 26
+</span><span class=lnt> 27
+</span><span class=lnt> 28
+</span><span class=lnt> 29
+</span><span class=lnt> 30
+</span><span class=lnt> 31
+</span><span class=lnt> 32
+</span><span class=lnt> 33
+</span><span class=lnt> 34
+</span><span class=lnt> 35
+</span><span class=lnt> 36
+</span><span class=lnt> 37
+</span><span class=lnt> 38
+</span><span class=lnt> 39
+</span><span class=lnt> 40
+</span><span class=lnt> 41
+</span><span class=lnt> 42
+</span><span class=lnt> 43
+</span><span class=lnt> 44
+</span><span class=lnt> 45
+</span><span class=lnt> 46
+</span><span class=lnt> 47
+</span><span class=lnt> 48
+</span><span class=lnt> 49
+</span><span class=lnt> 50
+</span><span class=lnt> 51
+</span><span class=lnt> 52
+</span><span class=lnt> 53
+</span><span class=lnt> 54
+</span><span class=lnt> 55
+</span><span class=lnt> 56
+</span><span class=lnt> 57
+</span><span class=lnt> 58
+</span><span class=lnt> 59
+</span><span class=lnt> 60
+</span><span class=lnt> 61
+</span><span class=lnt> 62
+</span><span class=lnt> 63
+</span><span class=lnt> 64
+</span><span class=lnt> 65
+</span><span class=lnt> 66
+</span><span class=lnt> 67
+</span><span class=lnt> 68
+</span><span class=lnt> 69
+</span><span class=lnt> 70
+</span><span class=lnt> 71
+</span><span class=lnt> 72
+</span><span class=lnt> 73
+</span><span class=lnt> 74
+</span><span class=lnt> 75
+</span><span class=lnt> 76
+</span><span class=lnt> 77
+</span><span class=lnt> 78
+</span><span class=lnt> 79
+</span><span class=lnt> 80
+</span><span class=lnt> 81
+</span><span class=lnt> 82
+</span><span class=lnt> 83
+</span><span class=lnt> 84
+</span><span class=lnt> 85
+</span><span class=lnt> 86
+</span><span class=lnt> 87
+</span><span class=lnt> 88
+</span><span class=lnt> 89
+</span><span class=lnt> 90
+</span><span class=lnt> 91
+</span><span class=lnt> 92
+</span><span class=lnt> 93
+</span><span class=lnt> 94
+</span><span class=lnt> 95
+</span><span class=lnt> 96
+</span><span class=lnt> 97
+</span><span class=lnt> 98
+</span><span class=lnt> 99
+</span><span class=lnt>100
+</span><span class=lnt>101
+</span><span class=lnt>102
+</span><span class=lnt>103
+</span><span class=lnt>104
+</span><span class=lnt>105
+</span><span class=lnt>106
+</span><span class=lnt>107
+</span><span class=lnt>108
+</span><span class=lnt>109
+</span><span class=lnt>110
+</span><span class=lnt>111
+</span><span class=lnt>112
+</span><span class=lnt>113
+</span><span class=lnt>114
+</span><span class=lnt>115
+</span><span class=lnt>116
+</span><span class=lnt>117
+</span><span class=lnt>118
+</span><span class=lnt>119
+</span><span class=lnt>120
+</span><span class=lnt>121
+</span><span class=lnt>122
+</span><span class=lnt>123
+</span><span class=lnt>124
+</span><span class=lnt>125
+</span><span class=lnt>126
+</span><span class=lnt>127
+</span><span class=lnt>128
+</span><span class=lnt>129
+</span><span class=lnt>130
+</span><span class=lnt>131
+</span><span class=lnt>132
+</span><span class=lnt>133
+</span><span class=lnt>134
+</span><span class=lnt>135
+</span><span class=lnt>136
+</span><span class=lnt>137
+</span><span class=lnt>138
+</span><span class=lnt>139
+</span><span class=lnt>140
+</span><span class=lnt>141
+</span><span class=lnt>142
+</span><span class=lnt>143
+</span><span class=lnt>144
+</span><span class=lnt>145
+</span><span class=lnt>146
+</span><span class=lnt>147
+</span><span class=lnt>148
+</span><span class=lnt>149
+</span><span class=lnt>150
+</span><span class=lnt>151
+</span><span class=lnt>152
+</span><span class=lnt>153
+</span><span class=lnt>154
+</span><span class=lnt>155
+</span><span class=lnt>156
+</span><span class=lnt>157
+</span><span class=lnt>158
+</span><span class=lnt>159
+</span><span class=lnt>160
+</span><span class=lnt>161
+</span><span class=lnt>162
+</span><span class=lnt>163
+</span><span class=lnt>164
+</span><span class=lnt>165
+</span><span class=lnt>166
+</span><span class=lnt>167
+</span><span class=lnt>168
+</span><span class=lnt>169
+</span><span class=lnt>170
+</span><span class=lnt>171
+</span><span class=lnt>172
+</span><span class=lnt>173
+</span><span class=lnt>174
+</span><span class=lnt>175
+</span><span class=lnt>176
+</span><span class=lnt>177
+</span><span class=lnt>178
+</span><span class=lnt>179
+</span><span class=lnt>180
+</span><span class=lnt>181
+</span><span class=lnt>182
+</span><span class=lnt>183
+</span><span class=lnt>184
+</span><span class=lnt>185
+</span><span class=lnt>186
+</span><span class=lnt>187
+</span><span class=lnt>188
+</span><span class=lnt>189
+</span><span class=lnt>190
+</span><span class=lnt>191
+</span><span class=lnt>192
+</span><span class=lnt>193
+</span><span class=lnt>194
+</span><span class=lnt>195
+</span><span class=lnt>196
+</span><span class=lnt>197
+</span><span class=lnt>198
+</span><span class=lnt>199
+</span><span class=lnt>200
+</span><span class=lnt>201
+</span><span class=lnt>202
+</span><span class=lnt>203
+</span><span class=lnt>204
+</span><span class=lnt>205
+</span><span class=lnt>206
+</span><span class=lnt>207
+</span><span class=lnt>208
+</span><span class=lnt>209
+</span><span class=lnt>210
+</span><span class=lnt>211
+</span><span class=lnt>212
+</span><span class=lnt>213
+</span><span class=lnt>214
+</span><span class=lnt>215
+</span><span class=lnt>216
+</span><span class=lnt>217
+</span><span class=lnt>218
+</span><span class=lnt>219
+</span><span class=lnt>220
+</span><span class=lnt>221
+</span><span class=lnt>222
+</span><span class=lnt>223
+</span><span class=lnt>224
+</span><span class=lnt>225
+</span><span class=lnt>226
+</span><span class=lnt>227
+</span><span class=lnt>228
+</span><span class=lnt>229
+</span><span class=lnt>230
+</span><span class=lnt>231
+</span><span class=lnt>232
+</span><span class=lnt>233
+</span><span class=lnt>234
+</span><span class=lnt>235
+</span><span class=lnt>236
+</span><span class=lnt>237
+</span><span class=lnt>238
+</span><span class=lnt>239
+</span><span class=lnt>240
+</span><span class=lnt>241
+</span><span class=lnt>242
+</span><span class=lnt>243
+</span><span class=lnt>244
+</span><span class=lnt>245
+</span><span class=lnt>246
+</span><span class=lnt>247
+</span><span class=lnt>248
+</span><span class=lnt>249
+</span><span class=lnt>250
+</span><span class=lnt>251
+</span><span class=lnt>252
+</span><span class=lnt>253
+</span><span class=lnt>254
+</span><span class=lnt>255
+</span><span class=lnt>256
+</span><span class=lnt>257
+</span><span class=lnt>258
+</span><span class=lnt>259
+</span><span class=lnt>260
+</span><span class=lnt>261
+</span><span class=lnt>262
+</span><span class=lnt>263
+</span><span class=lnt>264
+</span><span class=lnt>265
+</span><span class=lnt>266
+</span><span class=lnt>267
+</span><span class=lnt>268
+</span><span class=lnt>269
+</span><span class=lnt>270
+</span><span class=lnt>271
+</span><span class=lnt>272
+</span><span class=lnt>273
+</span><span class=lnt>274
+</span><span class=lnt>275
+</span><span class=lnt>276
+</span><span class=lnt>277
+</span><span class=lnt>278
+</span><span class=lnt>279
+</span><span class=lnt>280
+</span><span class=lnt>281
+</span><span class=lnt>282
+</span><span class=lnt>283
+</span><span class=lnt>284
+</span><span class=lnt>285
+</span><span class=lnt>286
+</span><span class=lnt>287
+</span><span class=lnt>288
+</span><span class=lnt>289
+</span><span class=lnt>290
+</span><span class=lnt>291
+</span><span class=lnt>292
+</span><span class=lnt>293
+</span><span class=lnt>294
+</span><span class=lnt>295
+</span><span class=lnt>296
+</span><span class=lnt>297
+</span><span class=lnt>298
+</span><span class=lnt>299
+</span><span class=lnt>300
+</span><span class=lnt>301
+</span><span class=lnt>302
+</span><span class=lnt>303
+</span><span class=lnt>304
+</span><span class=lnt>305
+</span><span class=lnt>306
+</span><span class=lnt>307
+</span><span class=lnt>308
+</span><span class=lnt>309
+</span><span class=lnt>310
+</span><span class=lnt>311
+</span><span class=lnt>312
+</span><span class=lnt>313
+</span><span class=lnt>314
+</span><span class=lnt>315
+</span><span class=lnt>316
+</span><span class=lnt>317
+</span><span class=lnt>318
+</span><span class=lnt>319
+</span><span class=lnt>320
+</span><span class=lnt>321
+</span><span class=lnt>322
+</span><span class=lnt>323
+</span><span class=lnt>324
+</span><span class=lnt>325
+</span><span class=lnt>326
+</span><span class=lnt>327
+</span><span class=lnt>328
+</span><span class=lnt>329
+</span><span class=lnt>330
+</span><span class=lnt>331
+</span><span class=lnt>332
+</span><span class=lnt>333
+</span><span class=lnt>334
+</span><span class=lnt>335
+</span><span class=lnt>336
+</span><span class=lnt>337
+</span><span class=lnt>338
+</span><span class=lnt>339
+</span><span class=lnt>340
+</span><span class=lnt>341
+</span><span class=lnt>342
+</span><span class=lnt>343
+</span><span class=lnt>344
+</span><span class=lnt>345
+</span><span class=lnt>346
+</span><span class=lnt>347
+</span><span class=lnt>348
+</span><span class=lnt>349
+</span><span class=lnt>350
+</span><span class=lnt>351
+</span><span class=lnt>352
+</span><span class=lnt>353
+</span><span class=lnt>354
+</span><span class=lnt>355
+</span><span class=lnt>356
+</span><span class=lnt>357
+</span><span class=lnt>358
+</span><span class=lnt>359
+</span><span class=lnt>360
+</span><span class=lnt>361
+</span><span class=lnt>362
+</span><span class=lnt>363
+</span><span class=lnt>364
+</span><span class=lnt>365
+</span><span class=lnt>366
+</span><span class=lnt>367
+</span><span class=lnt>368
+</span><span class=lnt>369
+</span><span class=lnt>370
+</span><span class=lnt>371
+</span><span class=lnt>372
+</span><span class=lnt>373
+</span><span class=lnt>374
+</span><span class=lnt>375
+</span><span class=lnt>376
+</span><span class=lnt>377
+</span><span class=lnt>378
+</span><span class=lnt>379
+</span><span class=lnt>380
+</span><span class=lnt>381
+</span><span class=lnt>382
+</span><span class=lnt>383
+</span><span class=lnt>384
+</span><span class=lnt>385
+</span><span class=lnt>386
+</span><span class=lnt>387
+</span><span class=lnt>388
+</span><span class=lnt>389
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATL
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ZMzYBXUtiRoIACyhQ4zZAHoFWPETKUAdNjYBbGnQT4EOhByjNuAbXBhQYe9Hjj0p
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>BNii4OAcyP77kRhZ2LjQADlD+B0DWTgA5TjFuAEYANgAGAFYeABZQpIB2JMjIQmY
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>AEUMEKARibgAzAmYEYogSbgghQjqAUWYOBG6AMTYASQpBngyAKQAFAHkALTKAZj8
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>HOsJ8fABlWF8JSVxsSREkFuYoUjYAawQAdRIoSWTzy5uEXZh99EE1NcgrkIvJJ+s
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>wLGgijZIGw4EdCLBkmk0i1PD5nMioRBMNwALTLAotGC45YZfKvK63ADCbHwbFI7Q
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>AxEjmWl/hAAEZHa5eQEcYjU2n0iSXTzMWGuMxsiiPZ5oFLZACcLUkCEIwKg3AyGX
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>OCBq3FCaXyBvyPEyLR5wjgI2I4NQlgAuuT3ttDqQ4KDbRBmK64Gz2cI+d0jCYzLb
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>rP5bFCHG0JOzCAAhRjZABqd3+DlgiHa1UwGqjAF8oY7MUI4MRcNVahCUhllmkSUl
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>sklQgrtZiiBxrtwOEIti1adhblXUA18E0bPnInYM05s1gNS1osFkklloumDEOPEO
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>IkIdkeArsvksmbMaUKkZK/VGs0z8OOQmk6m2Rstp9vlIjidXGyLhT7jKLyYn+zp7
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>M4Xo0m0LSAsCHpAf4EAwnCCIQkiKLeN8GIIdiaB4kkfCYkSuHLPuTpUjSdKMiySJ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>+lyFpCHyAqUcK5AcGKuASgumLSsQTzcCkyxKpiKpqtI3CTDqerVieBoFJCCH0VaN
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>pWMWCEgbcLoce6CBgu03paX6AbEEGximOYKktKW5ZXtJdYNk2LZtghHZdmgPZ9u2
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>bCDlJI43i0dScFA2yEAAXs4pr+YFgy4DomxEag8kZvO7QAIKkOQMCoClSSoAAFHg
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>sLYPCmUALwJciI6uAgqBlUkaQAJRsuQFAACrJRIaUZVlOX5bghXFTV5XUJVuqDXV
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>jUtJyTQds4zYtDmUApUQXghOgYhmEwbKBFAhCqEtaqrRAsXEMQvgtNoZi4IQ/SkN
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>a7SdD0fQDMMYwTNM8xLKsLR0mq10EG1uapeluCZdleUFchpVDSN1W1Q1EATlOmKZ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>uBrjuKiZ2YkunDJKRWMbsE267gl2RIlkKQU2SZ7lJUNm+WOt4ITG6DbAASoMmA8L
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>IZQAPoAIpsCkADiACa+QrDAAAyrMAKovpsOxge0hzHKcv5vLcDy8bKCVkR8SsSL8
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>UGYjBII6baiXQv1KHlVhDgY+iLQ4ageEZBoTkOPFOI8Ae7t60xQroEy1G0YO9GMR
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>RgfQKx7GcVKgFyoqyqquqmoewIurDlq6TLPipLmoCSlhqpDjqR8PpwYbPqGQxxnB
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>mZYZRtOTP3rEFAAI5pMwItsHz6aQCjc6AwWxSRhGJT3ikADSdTYJLkixC1MvZAAE
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>l4KQtQAVoU2RC5gIz944WYSBxVxUAWRaWWWFY+aktb1hkjbNq2/bXa5qDufg/ZeU
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>O14M4jNhm5H3AgtLaBMcYQjrOuIIcQEjhXrMeBBBJqYXiqD5UcTQWjMwgG3Tu3de
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>7yzfAbdAKtvxnGAhrAC2t4Kl0oe+cCRtajQWELBc2NCraQ0RHbSADtuDcKxMSOqf
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>tCK4h4I2YRalKEByoiHSadFeT8kjtmGO4ozLx2oXKQSydRIajQBJYCmdESTHCOEb
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Ia5MSKWtMXPWmk3SVx+NXSaRkTIhnMmgB0V9rK3xrHZR+DkX7tjft2XsX9PLeWHB
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>gxm6xArBTCuJfhAUzDRVivgeKltoDtXQJ1EG3VwZ9UhmNCqdQqqDXhtBSgANdFZO
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>BqDHqEMiqwEKcNYpo0yplMxFNQw11ZoRGRvOfaK12jrWqPSaBO09rLUOsdU65CEI
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>XQ8N026942Ycy5nAXmAthZiwltLOW31SC/Q4P9TJEBsm1LydbKGdVmklLaY1AB9g
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>gGDwkGjDwGFZlRHAatJICp0nYy3HA5I4QMh5B9vWLBNNLzoL8nedoPNlgwB5jMGW
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>OQ5iSw4HMXAzBMA80IOyTe+AFiEMVl8cCpC1Z6y1nxCENjiEQT+MwoEZtdI0sxEh
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>BpaS0KYl4WgfhztXYSM9riBUoRBUCCkUoiQwcWSh25Ao6RLFRSqMlC0Hi1LUDyiE
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ghESqc0BakksOfC+R8gKhIiadOEBLHKXcSXcV/5bHaRZQ4gyTja4uIblYJuUYJ7Z
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>hSnUAAshQa4aQ2CH2eegUBI8vXj1aPedk7JtjZBxDAbQCovDJmuAqKYuBBheDmCF
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>TevpR4D1nCfdKbBz4RkLP4W1HRr50zvr4p+jlX6dmCR5ZyP9oX/3sJOQByNS0RuS
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>tAzcyRfkjsJoCtAJJNUZEPOk88tNu2YNhcKP1gbg2hv8grehysvwUoof+KlOt0ll
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>13YbSCTCTYsOZRbb6lyuHoTRHwp2gi0hiogF7UIywP1lwVUHairI5Fh3lZKiNKiO
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>JqNVQnDVWjhIpzEnoi1TQfKFFNWIlIx4C6WisRZQ9zoK5sKri6jpzj66hjwwhKyN
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>9DU+Ifs2gJzkgluRCd/cJf8V0IUSUFUK8DIpJJinFdhGTAYdRqVlHgFyCllQijDQ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>apoJomwqScs5EmpMcvk0U25vB2kIU6TNIF81+mTKGWZTaYzdoEAGVMkgMy2TzKuj
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>dO6Eh4WIuRai9FmLsW4vxYStkP0vB/XwJUoGXUUqSd6pczTNzWk6fub2pGCFw0QF
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>PhWsBMDVpzonbAnczgUgHjSAqGsoQqZM0hWgiJMKW7tHoGwGWrNkysy8DwDgHAZj
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>xkpCDFKzAZhmB5sS89JD90/kpTB09dC6WMKaje+x6T2XFUfdy95L7MT8p4KVoVxE
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>0jZH9mBiA0rmSyvDoowUyilWQZVdxMb2jdWoGNQaxELZshamPBaq11j8MaUI06iA
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Cia6BnI24u0tbqMNro/ZZ+FqXLttCZ29jaBImvA4lAeM11iDXS8DDlophiCo75Bj
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>rH7YsVQGpDoWKMgagzDYNdKpn8kekEWuWigKpcDDjp5iHHnUK0s/vKlqgLQ4DU4o
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>+4qM4YIzcPsGkKMtqwBi/8JbewxrpdFgeWPGcx90B8/S6OvVvSEL/KJnl0kT8SJa
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ujOVumiPV3oGnrPeei9l5rw3tvRse8D7bqIaSvdqsRufaoeq8b9rJuXum0y2b97O
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>GoX4Ty1AfLREpEJLiAo5jJH/n/ftwDR3QOncVWxZVXEEJqp1vwnViG7sJ4MT5BU+
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Qjzym2ynhw73KO0Ptd9z0f3XUA9MsL4HniaPJHB7WfEuc9cOGhyxjtY+u2VYZvTl
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>HaOCdoGbpASorjnMs3Zpzbm/NBai3Fgi3Z6ZLV9WSGKyAAVsBCFtO+uqRoQU5BIn
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>4gSJqoR9oQjjvH6PvCE+csT0n5PKwqcacf9aFkcudmcEBWcQCV8+RwCed2gtcBch
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>cgc5dZdvUJcwApcIwZdUDMDi18gUhlca1VcnlB0RMC9PkMtuAoF8YMtDduAjwTVH
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>4jQNsSgLdl0okfUJA6xQgUoRUUh6ABs6VyVfdU93hj1hMz1g8GVr0w8iNdY2UH0o
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>8n1MJX1cJrkRFcIeAStdsc8ANZEOl5EjJ08RQ88LsKDIAi94kS8EMql9E1JDE5RM
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>MSIH5WDLVC5cMbUbE289JHFSM3VAcPsqN61vF74IcW1Ak20J9Ycp94d6ZONokzBY
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>k+NMRuNkkhNWUksTk6pUBV8G5UBromgGc9RylWpsi0hcjAiCi2ImArw5FppulDM+
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>lcxrN2gjA6gLCGBajLN8BWjhQYR7NApHMmB192cEIAsgsQsJAci8jQxqiiirwSCB
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>0NdyDtdlwIQQVssAVcsVxTVlgchDQLVF0oUZ8EiuD0ARZ4weA+YRgeAKA+4PcSUP
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>wRCPk7VxDrs/dBt6VjYEJTZw9FDI9bYVDHZVsk9+EvZtDdDmJ9CZVgM5VjC9tTDY
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>4oMrsNFeB854MdFxJkNHDUBSZjUmwmwzdIAm8vDPifDiM3R/s65u8UCQcQjaMwjH
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>5gVDxW134xjYjf4EcqtEieM4k9EEkopBNUlhNQEJBtA4BMoZiqiwYcQAA+CTJqZT
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>UTNaGEKUio2Y8wXJeUxU+orpfoJorIlokzCQdozo7aHovoiNAY86IYxZUY1jNlA5
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>QLI5YLE5CU9Uyo2k5gbUhU8LBGBLftJLMg15XhLY7Ei1A3KdBKTDfcZYUIJsBddg
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>04zg2NdoXuBUSWJIKAUIbAWIf1FeDgKefAI8FeZYCgSkItVIndYQ4bV4r0ShCQzI
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>lvUCL3C9GQ34mbeQubJQoEpbZ9XlNQl2fEFID9eKdbX9CVPQjPAwvTIw2uEwiDOO
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>aDNEzVG7MvfVSvYcA0Q0fIeMkkbDUsTw3vckrSexL0PwvTMjb0z1CMZfc4iADIbI
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ZgEKdkQYHQFIMNMgyNKtUee8tM2MBNJNFNNgNNDNLNHNPNAtKsmNZLLXKNO871AC
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>9AReUIduOoHgEWdkbIf1bYegeMduFIUIOoLwIWCoL8lY+CqtS+EsBkgfJkhjKHZj
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>D+R0uHLk+IhAJY4MlY0BcMvRe7WgzcegtAX5NIMRMRavCFVBS3Hkh8p8l8t8j8oQ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>tsobH3essuJshQsQjSaQn4hwP47siPDlRbBCGPOPYiJIJIMchgngSctPPbA7GiOE
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>47Rc87Zc1E9VASYkqQWw7Eh7DY1sdIFsXOQ8ouZvN4r7M8+Qi8kjK8gIm8sk4Irx
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>RkptfxJiqIliyfSAAcdiq3LjGJXjeJfjKAdIkU5sgeFTcTcLdTAaGTLTWLcaJUso
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>lU05KqiLepWqnTGLWGcqRTOchog0iEUfCq40g6UzDaUZWg8ZKzE09AaZTGOZO0pz
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>e8DMrMnMvMgsosks/IMsismChwCY10qY6pMLdq/JDTOq7qwpeLMAN/NXEtSipnNY
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>iBcqAifXL5YS9E0ISYOqZ7KSpdFMrBONIC5NVNdNTNbNXNfNQtZS54us9WI9D47S
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>/WFS74q9TsuQp1HswEuqaPZbQc0ErQ7IDQJEZYfIMS/LGvH2MmxPXCfcOy94dPRy
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>oDQwkDBE6cpE/PdRdVd9BUPmkkEkE0SYbIdIDICvbVXyuUUVHE1DXcw8FIPm0K48
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>jxU8uxaKjvfwrvVxIIhwUHUI3xXOVcUmNk6AiAHKjgufT/RfVAZfDAQHdfCAVzJF
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>FFbINFDFLFHFPFAlIlUeY/X0cq8/LyK/PhDQXGusQrU1DIbbErfIV/bHPkK27/Jf
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>KMO22kh21a7M3M/Mws4s0s8syso/LwE/CEM/CAC/YO3CG/MS8IQrMm79HgQSJsDI
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>OOonC4f/eEQA5A02i4MApneA6I+O4gOAyA3nJ6pAmnRuCMXAjArAmtUeXAnEXm/m
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>2sUkH2J80W8WiMIi92Ig+we0Li9XEBYdQS9YjVHbE+nLYmH5Rsesb61cf6k4jjVM
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>7BKAegfAUIboOoPmes18J4sleG0bNEwPVsj8KbRlVhLGoyhbZQ/s1Qwml2TeyAL2
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>JILIKEqOZmrPdm6E6ONylEwvGDbQmwrEpDfymMsRFBwSRjRvDw61E85Gh1c8/SKk
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>zvGk7W8KutZK+i1KyHE2gesJXK2Ssugq/krq1IoUlJNJIzFq7AVwG+D+BACgVAU+
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>HJKANgXIzAWEPkJq46iAGRyA6oeRxR5RzKVR9RzR9GhwfTRooaqRxaWas2hADo9L
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>aa3o+x1R/ayABze0tnVig650yY902Rgx/oIx8TUxrAcxgM26xLQ+9oUM5bPi1AfY
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>hvAID66MuqBM7bBWnQlBAGp+oG9oEWbYFeIQEYbIAADSEFiCSBgFlniBam2HZBwB
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>alhv/rUoRveKAdpVRrAdkIgbvQBOMpgdMvxtjyHLwmltppjJ/WQynOwYwecuz2wc
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>5vMO5p1jXMxNu03IcJ8lNCRDqlbDexoZ1oivLiip+yYY8Y5GvLYZF0QpjWwR4EGD
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>SDqCBDSGxGLWASHjzF/OjQjGQo5BBpArAohsguho8dibLTPiicDPuf+ewVQvQswu
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>wtwvwsIuItIvIs+bgqeoQv8H/OwTuB5jSCEDmFCFiCnlEBGBXjYFiHyF0FZnbmWE
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>GAovAiov8GrT3r7zBwYtyHjOGrNuYo5OyunyfoPoeqPsBkSZIhSa6LoOjO+prwVB
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>9iTOkotutwgCeZebeY+erM9zhvacAYD26dAZD3AdvWE3mxtlxuBJW2wkERmamYKE
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>mb9yZsz0WawajhWfcvwdXLgwluIfRNIedZFUsu2yOZw1oZVvoYpOdWYc1tYY9USt
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>1rotsnozSt4cypiJFbiLyt5OSKKrEYEwkdFMqtOpqsaUurkzuW0bLZyWqsi2ky6u
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>rdjz6ssaxX1J6VsatN0bM0mveoZ0tPsfmvrK8eWsKeKdKYqaqZqbqbYAaaaewBaf
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>2UOWORatUwbY6srebZaR6vhnFa+eFGPoHZ1zPq2M+qIrSBSFSEsofoq3yY1fwBGE
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>wEIDSHoG6Cnlae9zIQ6c1iRpbJ0p6bNb6YtfKsQl7JtdgZBPtb1SdcKwZvImnIWd
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ZvhIXMRKXLwYcCsIFKIdu3sNLlxJK0NHlEVHSVJLoYA7ObVoucvMsZuaTYo8gD1p
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>SvTZ4ciPZN8ZzYEdnyLb5JSPyuLYyK0qShaulO9PmNqJKKU2aqqQgDE+1ok+KIsc
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>gCscGoSgFYWh7bNOcaHbGv6KubHZGJ8aysQn8aOvKK9IU8KMk9qAPZxehcSdSAFa
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>jJ2IhHNSvaRAVrvZkp4+qwkERYwqwpwrwoIqIpIrIp/prNRpeN/f9xPRNYYWA4xv
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>6ctYg65RGYHLGfge9kdc0NQG/QQ4QDddnPbbZrQ45ow8u19YDxJsAzq7cNLyqQEp
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>2cNQVDEtvzJrI+OfYbPVjd+yMmpPdR72jZTc4bTYFuHybEzeFbNtFe5N89AIZ0Ts
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>x2Tv+c1PTr5kzMzo2pzu2t2oLt9qLv9uE+iUv2vxJtDcyCvcsprBr0KFjo5cHuW+
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>4FtvW/vCKZKbKcqeqdqZlnqcaeacLuLqSd9vLttEXpJtCBrEsq1AFqRAboKBbt/z
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>bt0AAMpy7r4ckV7rPn7qzcHuHqgKhbS3HuG9F3QOLVnq5bJ/Hisrq/q/wIe+IKZ+
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>iaDMhZcDcDeWfUSabFlZc+Jm+qIrqlVbyfm7OIBb5hSj5jqHjAqEGHoAyA4GyCnh
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>GFwAQBgBXklg+C/YOAAb900uAcA9NY7P0q7MgcGegb7Iy7gZg+HPvry4PGJqw1dY
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>cvdZQ5cvQ9waq6w5gw2YDa2ZluHGyCJPlFXFlfI5G9OYYeisucG8CNvPxaQuwSmC
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>mCSFIEuKnmTFZe+ZhZZ7hb8/QBXlZhXhSAoGWFZjKCgG6EpGYGT+2DmBGHwGTA4D
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>qCz6J8rQ5ZoqSv73G78XJs2PY9NvNpTLs+/OPcoNPYPEjLSdc4SjrFDe/SPG8/Vf
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>z4gGT9T/T8z8eK+Ji6Nfi8+N0uU/68xoGfGLS7xsy/MuHLSAFfijn40Cd+RuK9hL
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>d6Wa9cq86Ow9g28sa78q3O4EPDyDR1b2Fibrsm0j59cY+LDIbnSW5b616MFMfYgK
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>3Hx49+Gy/fNoVQFLFVSqkjZorJw3bLAK2UMY2i21JhtsAQypPAVVQIGNsLqeJeqj
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>1VIG0QBqXbXAT22GTmYpqunQZBIBHaDFLo3jdoBLyl4y8EAcvBXkrxV5q8NeWvFd
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>i6TXaUCws1ArdkQPoGDRGBI/R6g5wvqrRCG57dJgrWvaN1FauTR+qL2fr3giWJLM
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>lhSypY0s6WDLJliyy361lDWevf9pHwP6h4UuYHK1pynP7W8HAa2XLghHHKmgNA+H
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>U5k/0Owetyuyzd/msztYOAf+aAAgqQ0PC5xCskwMPqAMY4NlW85zdvANygFx8wBH
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>DbvjGSZKG0SI6SZATNyH4PsseS3BfEnRtop03uE7T7tOx+5zsF2gPQ7sDysoP98q
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Z3EOoVjGFtcJh4wwrEkCR4OAP8zQlbigOR4k5UeHddHsAUx6LdGcOPEeqbU5x91d
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>hbfNkILgnrx97A09CntLnnrk9vUBBXemAH3qwt7qh7IdFK20HYlvKfPZwIJANAkd
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ZWxxe9mYIKYSBKQ2wXAELDuDbBN4hAbXqpR/a79JCE2IDsbwBCm8T+B1M/rawJo2
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>8cQ+QaytOhrDhDZm9lJDq7znJlcI4FXT3h/wIY1h1ydhAPskHjKPwBIaQH5ErSja
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>1peuBQ3wrFTo7xVbmuQ5jlwwfhiJ6wXnAfpsK45oDA6SRDAaIwE4lVhSOAo0rJw9
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>LlRLO+RaqjqRShfRpOOjdUfJy1GSYdReo/qp20NIic7GendANpwswTIbR0AG0piE
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>M5LJTah1eQUMjVIajNSPpbUX6VWAaDUYHPMMu8LQBHhPh0/K+lD0QEsE3CAInzmL
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>2wT0Ayg1wFKC1CmA4gE0lIOoC1EpCbwxQhAWIDMG6C4BYRn4VwcjX14Jc9ISXE3s
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>f1S4410u9sUZpfzwjn0QhDBH5Pf2JGM0XeJXFTvOUpFxDqRCQxON/0lqoBtmBHW+
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>OHXJpFYJRCkHIRHzyEEYeRlJK5v6AFEMdUCBLe8GUGTDMB8gxAIWJSHbit9XhPzR
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>7n8xX6F9i+pfcvpX2r6196+jfZvheJSy4tfmefaMPeGWDlNKQIwEWBQHGBJBYgdw
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>KAAGhShCBcAMsfANcBmAfj2WvaTvqN3KGNpRRywIitOOypCtOOs3XNjeCDHZ9pW3
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>1PQTP1D5B9h8IVEwYCI4rAj0AB4o8SeLPHlid+bgrpvv2RF6VURDYnwZiKg6JDIA
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>/KOflMzMSO9exiHeZmSNK6odhxb/UcSuU8r+skhk4iIV6FxKkhyaKDE0NkMjYnNV
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>xkVajp6EgEJtoBBk4UT3wbqhAQUHYsfHhJM71CgRvHAtpgN47YDS267KgYQLUGqC
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>6qZA37BQNCz1slB51TqsQN3aaYApqnFgaqLYF9sdODo7gXNVswLUHAroh2imLTEZ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>isx2wHMXmILFwAixJYssbIICZeTFBPksqBFO0wKYomd1UgpoOJ5hj8uqDbQZ9QoZ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>i0CCPsbygmJlEAs7xJfMvhXyr418pgdfBvk3xb7ODouuvKse4MMko0jePEo/t4JO
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>7gcmx/g6DoENERWVLKpoIPvuD3Jzpq8b1TbEkyPAk0Rac6XILkBKxJxnepIgcRyC
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>HEnYRxZhH1t7zRLvoa8ucTrnVEpik16R3AQoPf3rCkxH4j8fCFHQFYoZhwPAVkVH
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>TJp6SjynI7wuuJcBFCzJJQoUamwqEG1JuZ03CRlTqFzd6JFCZHM9ylEYAE6Cwl7m
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>0Ptr3gsp6YzMdmNzH5jCxxY0sUD2O4K4hGIwyuqHTJh1gQUvyUkFhP5qzDsqf+VY
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>RTmIBAFJQ1MnugzgJ7Gds2NMoegcMJ6a4x6mIE4aTyno3Dx4lPB4dcPHgQ9fpucQ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>oADMwxAzbhgw8GZkBQb7SYZ9wx4bn2eHJZeKLUm9uROJjFZsJjBJfoDQ1ZeAFQCA
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>BUGwH9Q6B+26wKLga3hEcTjWXE5aYfwMpm9T+m0rEVlxxHBDzpOQKyupL/T9jn+5
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>IuSW9IUkfTMOlhAhgaGBkkM/+bnUFNoVvwciDJ3I4ybyPjZxUtaO4+kmN3xnps++
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>SAhyerKcnkzFRrkhUbyQ8lgcxSa0IJtVBCZKMwmajCJp4DTlBTxSi8wxivK6jhMN
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>GG8pgRaJsasD7GdozgUlMOjuM+BCycdtTI9FulpGO85ecY1QAHzImxEo9m8JPan1
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Ugdk1JvKwol8sCCzII4smQaG/j2gMwLwPkGwCDAKAZQFmlxnjltNE580zifQ08Hm
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>t/imcoZpbxbEX8hyeIi1PFCjq2UhhkQkudEJf6eszsVcr3jXKAYNc1JjIiENXgEg
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>FACCEbVGe3LoQQDaOKnejsN37noTB8CPLIG4VqH4Tx5ebWUXx0LaKjZ560+eRAA0
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>DqLa2LVdRRoGPkGZT5cU8+Y43NLdEr52YZ0YtX4H3ylhfjVdk/Nk7aL6pMTCVggV
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>1m/yXq31KfkAqvpGgKY4QQSOArVYhyV+/4wCcBNAngTIJ/qaCbBPgmISZpCcg9Bg
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>uTlYLuJactEY2PwWQcre204SbtNq77EW5CZXOArVIUMFjwPYtBjIlLmyT3eVIhhT
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>SKAb5KfYeQIpRLJ8T1y7ssM3EjdxKyCRyGbcnrvwoxlH8tGxQhKrjIHkYSJuRtIm
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>YKxJkyKyZcihspTLpmrd38jMmrKmJZm5T8pHMoqVzNKkp0ju7CQOgLNjwXdABUda
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>9nfDu6I9rx7+WmfjhaF1CZZZONYfLIx7WLxU2PbnIcK+UazVZLirQQhH1koFqe4u
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>S4dgTNkRhae9YZpc2DMRtLaw+BUIG7K/ns90YCTH2eCnanRlDwpqIijXmF6mCJ5U
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>CiQDiD5heAxgaQIWDABgCUgEAK8egNsHKb0AoA2QGWCWLYlzTKO1YlOYlxRGrTQO
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>603wSZUIUBDclBI0pXolhlzN0GaQdkCaBsmYNYh6DFBrgFwDshppHlHWBiT94bk2
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>FCUV7KTWTwDLShHcx1CZMEXXNtxBshPrBVH4/z4W94JsAgH9SUg5gOgOWBfDnq0V
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Jl4imyX4mm4LLCJPaD2Y1MlbGKqCcoTxUJXSbfVFQ+xVcL1IgXOSV+rq91Z6r2R6
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>s/637RJbyoWlSFUlXg4VdjUyXNieErYocmTXBIMFZWxc0kYqu0IZAVV8kxkOqs1X
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>arquOsRfpszLxFzcSZiOdEahQZmrchFqxhtaq3G9yRFsAljiSGbVBrJR/y2RYI24
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>xTyIo7k5UZ5LwFJBNFu63RdY3U7dt7G7A2OYApcY9teBtpSxUZ3aAUqqVFAGlXSo
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>ZVMqWVbKjlVyrKnmd12e69Fb9hDFYq3F3yPVeP0nQz9bJ1ePmoVmDmQKHyzABYCL
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>FwDU4KAdQJEFmP9QkUKAMAIuq+25WViC1mCyjl8V6bJdS1UDa1hWpSxVr4GWEl1p
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>2PDHNhCubrJtcqpiFtqpUHarVWOKnEsLA2OEjSbfBPDbZDQMGkAfpMGX5DO5G42P
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>uMt3GJ97wBY9uFikkBrwPxP5Dvr6q748tfEB4ZPLK2kWOTFlREp4RGpIk+ycgfs2
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>aEaAXV7lDQsGtNWSvQBKaVNam+JWgvzWnM+VKS1OSWtwUYis5gk7ETtOnR7l8ReJ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>XOMxpd6saW17Giue2oyAaruNSkntXxrw6Gq8g+EfLMqxRlhVzVQy6TXG03HCKYBf
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>qsRUyQPDzj0qHHIzaGrF7rr5Rm6pRdurnkqYeA+61KO1r1J6Lj1Z8x0WesSkzVHR
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>16l0UtTvWGxENyGwgKhvQ3shMNXgbDbhuQU2K5BdizrY4tZ7OKXkgGrnj7JIhWb+
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>IZie6c2HjGprSVD5JeC1EwDFM6gOIBYOyGwA8BSA0oSkCFDSDYAMgXauOfqw82iF
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>CNyS4jdgpA7+aOE5araUJIETqEwt0ql2CLQVBRbG1Sq2LbQtVUJaktX2pheqlA2Q
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>BkhU4w1ethJBsi9y3lcPlyIK2Wqu5xW21WCp/EPk4AC2vmJgCEApRDlDqnislB9V
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>U9tNcAibtZIM2jy2M3HccKZuWKRrnqq0SSrioompBDixqFSWwUCVwaAW9O+4kzpZ
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>34b0F/2vfj5oFUrT056I0HRbyyXiqclkOl2E53C04hnsxNSSUV2i1I7W18WzjYls
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>7U8be1+qhkcG3yzhs2udvJcRJvy1SaKdMmsZYKJXGWTB5AtZ7DWEQZzKatY84zQt
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>3kUbrBSgnMqiopOTlMOtEgLPd1qPVzQ+tyU3thNUG2uNhtqU0dmNrdESBLt12leL
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>dvu2PbnthAV7e9s+3+YzOnonPRtseQateIZOTXncHdyi7zNOItrlMyt0CbP+JICc
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>YG3UlmVKlUqBVQ7ri1M0uNGOsuqgrzV/avNhapEb5pwWGVzelG/hKTvRmFaYq3cm
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>cfDJyCapnsfyL5MkCyxS6r6LI+MqTGAFlZFdjmoRdTttAzcI9Uyles7NmWGaE9dW
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>1MqovKYFEfSuAegFdHwCaqjAI4OkKgCLqkBOQXgaqNoC2Ac9lwpRHRtAdKBKN4Dm
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>wJA9VACikA0DHETA9gZpBGB3A+BlyY1tT1KiS2rW0akXovkDtL1bjcxe22YGWjPG
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Veh0iZ0fmEGYDJBhA+QZQNUH0DtB1ADgYYM7QcYE4cAKpBSxwA4AuwG+PTIzAqgT
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>AbRLEpEAYCEAFG8YV6UzTqDWGbDawXRiIE4gjBqgOgXYCSOkkxa7Dl+dKGZCcPGA
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>LDFIp3UHHX2eGHDPh5w4MC3068CN9h7w2YF8MuHGy/7GI44ecOuGQGuuixskbCPG
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>BWY6S5slkbiPOG5gAk9KaEcKPGBhgaelUZ4zKNQB4jlRhRW5NKOxG6jzhypFpyMU
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>hGWj8RtI0ZOD1FaujKR4wDoZVlay1ZJhrw0MZ0DdBYCYxoFc1OaNTHJY3SDiL0ao
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>79GRlmRnkCQCnkcldGkcGYAQCqDVAXu1aN/JvqMC2hgAhYfMEAA=
+</span></span></code></pre></td></tr></table></div></div><p>%%</p></article><hr><div class=page-end><div class=backlinks-container><h3>Backlinks</h3><ul class=backlinks><li>No backlinks found</li></ul></div><div><script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>Interactive Graph</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://prophet1906.github.io/garden/js/graph.27e8521c25c27c79dea35f434c486167.js></script>
+<script>drawGraph("https://prophet1906.github.io/garden/Excalidraw/collections/arraylist_doubling.excalidraw","https://prophet1906.github.io/garden",[{"/books":"#ca1919"}],-1,!0,!0,!0)</script></div></div><div id=contact_buttons><footer><p>Made by Shubham using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2022</p><ul><li><a href=/>Home</a></li><li><a href=https://twitter.com/Shubham_null>Twitter</a></li><li><a href=https://github.com/prophet1906>Github</a></li></ul></footer></div><script src=https://prophet1906.github.io/garden/js/popover.e57188d2e4c06b0654e020b3a734bb62.min.js></script>
+<script>initPopover("https://prophet1906.github.io/garden")</script></div></body></html>
